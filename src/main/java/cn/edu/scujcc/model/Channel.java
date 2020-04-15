@@ -63,7 +63,7 @@ public class Channel {
 		result = prime * result + ((url == null) ? 0 : url.hashCode());
 		return result;
 	}
-	
+	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
