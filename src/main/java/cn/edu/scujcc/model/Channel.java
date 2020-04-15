@@ -18,8 +18,7 @@ public class Channel {
 	
 	/*
 	 * 返回此频道的所有评论
-	 * 
-	 * 
+	 * @return
 	 * */
 	public List<Comment> getComments() {
 		return comments;
